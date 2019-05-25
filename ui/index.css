@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+.logo h1{
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+nav{
+    
+    height: 80px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: gray;
+}
+
+nav div{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.nav-head:nth-child(2), .nav-head:nth-child(3){
+    float: right;
+}
+
+.content{
+    width: 100%;
+    min-height: 200px;
+    border-top: 2px solid white;
+
+}
+.form-content{
+    margin: 10px auto;
+    width: 50%;
+    min-height: auto;
+    padding: 10px;
+    background-color: white;
+
+}
+form{
+    width: 194px;
+    min-height: auto;
+    margin: 0 auto;
+}
+
+.form-content input{
+    padding: 10px;
+    min-height: 30px;
+    margin: 10px auto;
+}
+
+input[type='submit']{
+    margin-left: 56px;
+}
